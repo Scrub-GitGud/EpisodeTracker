@@ -162,7 +162,7 @@ class Show {
         this.ep += 1
     }
     EpMinus() {
-        if(this.ep <= 1) return
+        if(this.ep <= 0) return
         this.ep -= 1
     }
     IsFinishedWatching() {
